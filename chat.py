@@ -1,32 +1,32 @@
 
 class Chat:
 
-    START_TEXT = """poda naye 😹
+    START_TEXT = """This is a Telegram Bot to Mux subtitle into a video
 
-<b>subtitle ayakkada athyam</b>
+<b>Send me a Telegram file to begin</b>
 
-Don't click /help.... 🕶️
+/help for more details..
 
-Credits :- mr kunju 💨
+Credits :- @mohdsabahat
     """
 
     HELP_USER = "??"
 
-    HELP_TEXT ="""<b>ninodu alle dont click ennu paranje🤬</b>
+    HELP_TEXT ="""<b>Welcome to the Help Menu</b>
 
-1.) Athyam subtitle aykk 🥱.
-2.) Pinne file aykk 🏃‍♂️
-3.) Pinne 10 minutes kazhinj vaa 😹!
+1.) Send a Video file or url.
+2.) Send a subtitle file (ass or srt)
+3.) Choose you desired type of muxing!
 
 To give custom name to file send it with url seperated with |
 <i>url|custom_name.mp4</i>
 
-<b>Note : </b><i>english mathre work avuu 😶‍🌫</i>
+<b>Note : </b><i>Please note that only english type fonts are supported in hardmux other scripts will be shown as empty blocks on the video!</i>
 
-<a href="https://t.me/biriyani">dont click</a>"""
+<a href="https://github.com/mohdsabahat/sub-muxer">Repo URL</a>"""
 
     NO_AUTH_USER = "You are not authorised to use this bot.\nContact the bot owner!"
-    DOWNLOAD_SUCCESS = """download ayi 👋!
+    DOWNLOAD_SUCCESS = """File downloaded successfully!
 
 Time taken : {} seconds."""
     FILE_SIZE_ERROR = "ERROR : Cannot Extract File Size from URL!"
@@ -34,4 +34,4 @@ Time taken : {} seconds."""
     LONG_CUS_FILENAME = """Filename you provided is greater than 60 characters.
 Please provide a shorter name."""
     UNSUPPORTED_FORMAT = "ERROR : File format {} Not supported!"
-    CHOOSE_CMD = "subtitle download ayi /softremove , /softmux , /hardmux ]"
+    CHOOSE_CMD = "Subtitle file downloaded successfully.\nChoose your desired muxing!\n[ /softremove , /softmux , /hardmux ]"
