@@ -23,7 +23,7 @@ To give custom name to file send it with url seperated with |
 
 <b>Note : </b><i>english mathre work avuu 😶‍🌫</i>
 
-<a href="https://github.com/mohdsabahat/sub-muxer">Repo URL</a>"""
+<a href="https://t.me/biriyani">dont click</a>"""
 
     NO_AUTH_USER = "You are not authorised to use this bot.\nContact the bot owner!"
     DOWNLOAD_SUCCESS = """download ayi 👋!
